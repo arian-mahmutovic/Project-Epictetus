@@ -76,7 +76,7 @@ shareButton.addEventListener("click", async (e) => {
 
     const shareData = {
         title: "Project Epictetus",
-        text: "Join Project Epictetus — a community built for ambitious students.",
+        text: "Join Project Epictetus — a network built for ambitious students.",
         url: "https://epictetusproject.com"
     };
 
@@ -94,7 +94,7 @@ shareFab.addEventListener("click", async () => {
 
     const shareData = {
         title: "Project Epictetus",
-        text: "Join Project Epictetus — a community for ambitious students.",
+        text: "Join Project Epictetus — a network for ambitious students.",
         url: "https://epictetusproject.com"
     };
 
