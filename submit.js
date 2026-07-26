@@ -68,7 +68,7 @@ form.addEventListener("submit", async (e) => {
 
 });
 
-//dasdas
+//Sharing
 const shareButton = document.querySelector("#share-button");
 
 shareButton.addEventListener("click", async (e) => {
@@ -116,5 +116,18 @@ shareFab.addEventListener("click", async () => {
         console.error(error);
 
     }
+
+});
+
+//FAQ
+const faqItems = document.querySelectorAll(".faq-item");
+
+faqItems.forEach(item => {
+
+    const button = item.querySelector(".faq-question");
+
+    button.addEventListener("click", () => {
+        item.classList.toggle("active");
+    });
 
 });

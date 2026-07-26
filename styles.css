@@ -311,6 +311,68 @@ section p {
 
 }
 
+.faq {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    margin-top: 40px;
+}
+
+.faq-item {
+    background: var(--surface);
+    border: 1px solid var(--accent);
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.faq-question {
+
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 25px 30px;
+
+    background: transparent;
+    color: var(--text);
+
+    border: none;
+    cursor: pointer;
+}
+
+.faq-question h3 {
+    margin: 0;
+    font-size: 24px;
+    text-align: left;
+}
+
+.faq-arrow {
+    font-size: 28px;
+    color: var(--accent);
+    transition: transform .25s ease;
+}
+
+.faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height .3s ease;
+}
+
+.faq-answer p {
+    margin: 0;
+    padding: 0 30px 30px;
+}
+
+.faq-item.active .faq-answer {
+    max-height: 350px;
+}
+
+.faq-item.active .faq-arrow {
+    transform: rotate(180deg);
+}
+
 
 #join-form {
 
