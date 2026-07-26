@@ -28,17 +28,16 @@ form.addEventListener("submit", async (e) => {
 
                 <h3>
                     Would you like to help us build a better platform by
-                    answering a short survey?
+                    giving us your feedback?
                 </h3>
 
                 <br>
                 <br>
                 <br>
 
-                <a href="https://forms.gle/FokuuMfcSi85DmbKA" 
-                   target="_blank"
+                <a href="research.html" 
                    class="button">
-                    Take Survey
+                    Go to Research Page
                 </a>
             `;
 
