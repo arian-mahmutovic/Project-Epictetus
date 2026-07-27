@@ -35,7 +35,7 @@ form.addEventListener("submit", async (e) => {
                 <br>
                 <br>
 
-                <a href="research.html" 
+                <a href="/research/" 
                    class="button">
                     Go to Research Page
                 </a>

@@ -450,6 +450,18 @@ section p {
 
 }
 
+
+.under-waitlist-message {
+    margin-top: 15px;
+    font-size: 16px;
+    color: var(--background);
+    align-self: center;
+    text-align: center;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 0 15%;
+}
+
 footer {
 
     padding:40px;
